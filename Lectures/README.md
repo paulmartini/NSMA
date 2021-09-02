@@ -7,3 +7,4 @@ The content is maintained on github and distributed under a a [BSD3 license](htt
 The lectures are better viewed with the following links due to various latex macros: 
 
 * [Numerical Lecture 1: Numerical Integration](https://nbviewer.jupyter.org/github/paulmartini/NSMA/blob/main/Lectures/NumIntegration.ipynb)
+* [Numerical Lecture 2: Ordinary Differential Equations](https://nbviewer.jupyter.org/github/paulmartini/NSMA/blob/main/Lectures/OrdDiffEqns.ipynb)
