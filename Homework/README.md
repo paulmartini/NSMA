@@ -6,6 +6,6 @@ The content is maintained on github and distributed under a a [BSD3 license](htt
 
 The lectures are better viewed with the following links due to various latex macros: 
 
-* [Problem Set 1: Numerical Integration](https://nbviewer.jupyter.org/github/paulmartini/NSMA/blob/main/Homework/NumIntegration.ipynb)
-* [Problem Set 2: Orbits](https://nbviewer.jupyter.org/github/paulmartini/NSMA/blob/main/Homework/Orbits.ipynb)
-* [Problem Set 3: Root Finding and Minimization](https://nbviewer.jupyter.org/github/paulmartini/NSMA/blob/main/Homework/RootFinding.ipynb)
+* [Problem Set 1: Numerical Integration](https://nbviewer.jupyter.org/github/paulmartini/NSMA/blob/main/Homework/PS1.NumericalIntegration.ipynb)
+* [Problem Set 2: Orbits](https://nbviewer.jupyter.org/github/paulmartini/NSMA/blob/main/Homework/PS2.Orbits.ipynb)
+* [Problem Set 3: Root Finding and Minimization](https://nbviewer.jupyter.org/github/paulmartini/NSMA/blob/main/Homework/PS3.RootFinding.ipynb)
