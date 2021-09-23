@@ -10,3 +10,4 @@ The lectures are better viewed with the following links due to various latex mac
 * [Numerical Lecture 2: Ordinary Differential Equations](https://nbviewer.jupyter.org/github/paulmartini/NSMA/blob/main/Lectures/OrdDiffEqns.ipynb)
 * [Numerical Lecture 3: Root Finding and Minimization](https://nbviewer.jupyter.org/github/paulmartini/NSMA/blob/main/Lectures/RootFindMin.ipynb)
 * [Statistics Lecture 1: Statistics Background](https://nbviewer.jupyter.org/github/paulmartini/NSMA/blob/main/Lectures/StatsBackground.ipynb)
+* [Statistics Lecture 2: Bayesian Parameter Estimation](https://nbviewer.jupyter.org/github/paulmartini/NSMA/blob/main/Lectures/BayesianParams.ipynb)
