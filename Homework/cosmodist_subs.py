@@ -59,6 +59,45 @@ def cosmodist(redshift,h0,omega_m,omega_k=0.0,w=-1.0,omega_r_h2=1.710e-5,omega_n
     dmphys=dm*SPEED_OF_LIGHT/h0
     return([dc,dcphys,dmphys])
 
+def cosmodisth(redshift,h0,omega_m,omega_k=0.0,w=-1.0):
+    """
+    cosmodist(redshift,h0,omega_m,omega_k=0.0,w=-1.0)
+    redshift = redshift at which distances are to be evaluated
+    h0 = present day Hubble constant in km/s/Mpc
+    omega_m = matter density parameter at z=0
+    omega_k = curvature parameter, default is 0.0 (flat universe)
+    w = equation-of-state parameter, default is -1.0 (cosmological constant)
+
+   Returns [D_M(z),H(z)/H0]
+      D_M(z) = comoving angular diameer distance to redshift z, Mpc
+      H(z)/H_0 = hubble ratio at redshift z
+    """
+
+    # compute radiation energy density parameter
+    h=h0/100.
+    omega_r=(OMEGA_GAMMA_HSQR+OMEGA_NU_HSQR)/(h**2)
+
+    # Evaluate integral for d_C(z)
+    params=[omega_m,omega_r,omega_k,w]
+    tolerance = 3.e-5
+    [dc, nstep]=simpson_driver(hratio,params,0.0,redshift,tolerance,nstepmax)
+
+        # note we want to return H(z)/H_0, not H0/H(z)
+    hrat=1./hratio(redshift,params)
+
+    if (omega_k==0.0):
+        dm=dc
+    else:
+        if (omega_k>0.0):
+            dm=np.sinh(np.sqrt(omega_k)*dc)/np.sqrt(omega_k)
+        else:
+            dm=np.sin(np.sqrt(-omega_k)*dc)/np.sqrt(-omega_k)
+
+
+    dmphys=dm*SPEED_OF_LIGHT/h0
+    return([dmphys,hrat])
+
+
 def hratio(z,params):
     """
     Returns the ratio H0/H(z).
