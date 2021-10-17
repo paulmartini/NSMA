@@ -10,3 +10,4 @@ The lectures are better viewed with the following links due to various latex mac
 * [Problem Set 2: Orbits](https://nbviewer.jupyter.org/github/paulmartini/NSMA/blob/main/Homework/PS2.Orbits.ipynb)
 * [Problem Set 3: Root Finding and Minimization](https://nbviewer.jupyter.org/github/paulmartini/NSMA/blob/main/Homework/PS3.RootFinding.ipynb)
 * [Problem Set 4: Multi-variate Gaussians and Simple MCMC](https://nbviewer.jupyter.org/github/paulmartini/NSMA/blob/main/Homework/PS4.MCMC.ipynb)
+* [Problem Set 4: Fisher Forecasts](https://nbviewer.jupyter.org/github/paulmartini/NSMA/blob/main/Homework/PS5.Forecast.ipynb)
