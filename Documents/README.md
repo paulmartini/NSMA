@@ -10,3 +10,4 @@ These notebooks are better viewed with the following links due to various latex 
 * [Plotting Introduction](https://github.com/paulmartini/NSMA/blob/main/Documents/PlottingIntroduction.ipynb)
 * [Data Storage](https://github.com/paulmartini/NSMA/blob/main/Documents/DataStorage.ipynb)
 * [Density Estimation](https://github.com/paulmartini/NSMA/blob/main/Documents/DensityEstimation.ipynb)
+* [Clustering](https://github.com/paulmartini/NSMA/blob/main/Documents/Clustering.ipynb)
