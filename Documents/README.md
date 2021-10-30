@@ -6,8 +6,8 @@ The content is maintained on github and distributed under a a [BSD3 license](htt
 
 These notebooks are better viewed with the following links due to various latex macros: 
 
-* [How To Homework](https://github.com/paulmartini/NSMA/blob/main/Documents/HowToHomework.ipynb) 
-* [Plotting Introduction](https://github.com/paulmartini/NSMA/blob/main/Documents/PlottingIntroduction.ipynb)
-* [Data Storage](https://github.com/paulmartini/NSMA/blob/main/Documents/DataStorage.ipynb)
-* [Density Estimation](https://github.com/paulmartini/NSMA/blob/main/Documents/DensityEstimation.ipynb)
-* [Clustering](https://github.com/paulmartini/NSMA/blob/main/Documents/Clustering.ipynb)
+* [How To Homework](https://nbviewer.org/github/paulmartini/NSMA/blob/main/Documents/HowToHomework.ipynb) 
+* [Plotting Introduction](https://nbviewer.org/github/paulmartini/NSMA/blob/main/Documents/PlottingIntroduction.ipynb)
+* [Data Storage](https://nbviewer.org/github/paulmartini/NSMA/blob/main/Documents/DataStorage.ipynb)
+* [Density Estimation](https://nbviewer.org/github/paulmartini/NSMA/blob/main/Documents/DensityEstimation.ipynb)
+* [Clustering](https://nbviewer.org/github/paulmartini/NSMA/blob/main/Documents/Clustering.ipynb)
