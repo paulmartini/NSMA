@@ -14,3 +14,4 @@ The lectures are better viewed with the following links due to various latex mac
 * [Statistics Lecture 3: Correlated Errors, Chi2, and MCMC](https://nbviewer.jupyter.org/github/paulmartini/NSMA/blob/main/Lectures/CorrelatedErrors.ipynb)
 * [Statistics Lecture 4: Fisher Matrix Forecasts and Linear Models](https://nbviewer.jupyter.org/github/paulmartini/NSMA/blob/main/Lectures/FisherMatrixForecasts.ipynb)
 * [Statistics Lecture 5: Hypothesis Testing](https://nbviewer.jupyter.org/github/paulmartini/NSMA/blob/main/Lectures/HypothesisTesting.ipynb)
+* [Numerical Lecture 4: Fast Fourier Transforms and Applications](https://nbviewer.jupyter.org/github/paulmartini/NSMA/blob/main/Lectures/FastFourierTransforms.ipynb)
