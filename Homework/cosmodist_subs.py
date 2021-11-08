@@ -67,6 +67,7 @@ def cosmodisth(redshift,h0,omega_m,omega_k=0.0,w=-1.0):
     omega_m = matter density parameter at z=0
     omega_k = curvature parameter, default is 0.0 (flat universe)
     w = equation-of-state parameter, default is -1.0 (cosmological constant)
+    omega_r = radiation density parameter, default is 1.394e-3
 
    Returns [D_M(z),H(z)/H0]
       D_M(z) = comoving angular diameer distance to redshift z, Mpc
